@@ -1,0 +1,7 @@
+model,cv_rmse_log,holdout_rmse,best_params
+RandomForest_opt,0.13868336621337982,,"{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 400}"
+KNN_opt,0.16493296861440396,,"{'n_neighbors': 11, 'p': 1, 'weights': 'distance'}"
+XGBoost_opt,0.1185749832194779,19962.68158934805,"{'colsample_bytree': 0.9, 'gamma': 0.0, 'learning_rate': 0.05, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 500, 'reg_alpha': 0.01, 'reg_lambda': 3.0, 'subsample': 0.8}"
+Ridge_opt,0.1173742037586368,44350.30842222653,"{'alpha': 5.0, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'positive': False, 'random_state': 42, 'solver': 'auto', 'tol': 0.0001}"
+WeightedVoting_opt,0.11623776428961448,20295.776263164407,"{'weights': (0.1, 0.05, 0.75, 0.1)}"
+ChosenFinal,,19962.68158934805,Pure XGBoost
